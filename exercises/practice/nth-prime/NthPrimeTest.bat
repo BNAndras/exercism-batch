@@ -35,6 +35,11 @@ if "%1" == "test-runner" (
     set "if_failed=Test failed: sixth prime"
     CALL :Assert "6"
 
+    set "expected=104743"
+    set "if_success=Test passed"
+    set "if_failed=Test failed: big prime"
+    CALL :Assert "10001"
+
     set "expected=229"
     set "if_success=Test passed"
     set "if_failed=Test failed: 50th prime"
