@@ -3,6 +3,9 @@
     "dbenham",
     "GroophyLifefor"
   ],
+  "contributors": [
+    "BNAndras"
+  ],
   "files": {
     "solution": [
       "NthPrime.bat"
